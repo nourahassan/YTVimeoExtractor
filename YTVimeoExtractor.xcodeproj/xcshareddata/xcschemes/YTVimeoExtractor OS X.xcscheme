@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "01AC342E1C1F21280015CAA6"
-               BuildableName = "YTVimeoExtractor.framework"
-               BlueprintName = "YTVimeoExtractor"
+               BuildableName = "YTVimeoExtractor OS X.framework"
+               BlueprintName = "YTVimeoExtractor OS X"
                ReferencedContainer = "container:YTVimeoExtractor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "01AC34381C1F21290015CAA6"
-               BuildableName = "YTVimeoExtractorTests.xctest"
-               BlueprintName = "YTVimeoExtractorTests"
-               ReferencedContainer = "container:YTVimeoExtractor.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01AC342E1C1F21280015CAA6"
-            BuildableName = "YTVimeoExtractor.framework"
-            BlueprintName = "YTVimeoExtractor"
-            ReferencedContainer = "container:YTVimeoExtractor.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -65,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01AC342E1C1F21280015CAA6"
-            BuildableName = "YTVimeoExtractor.framework"
-            BlueprintName = "YTVimeoExtractor"
+            BuildableName = "YTVimeoExtractor OS X.framework"
+            BlueprintName = "YTVimeoExtractor OS X"
             ReferencedContainer = "container:YTVimeoExtractor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "01AC342E1C1F21280015CAA6"
-            BuildableName = "YTVimeoExtractor.framework"
-            BlueprintName = "YTVimeoExtractor"
+            BuildableName = "YTVimeoExtractor OS X.framework"
+            BlueprintName = "YTVimeoExtractor OS X"
             ReferencedContainer = "container:YTVimeoExtractor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

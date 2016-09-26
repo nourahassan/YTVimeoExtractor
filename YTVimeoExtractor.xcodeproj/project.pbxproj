@@ -147,9 +147,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		01AC342E1C1F21280015CAA6 /* YTVimeoExtractor */ = {
+		01AC342E1C1F21280015CAA6 /* YTVimeoExtractor OS X */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01AC34431C1F21290015CAA6 /* Build configuration list for PBXNativeTarget "YTVimeoExtractor" */;
+			buildConfigurationList = 01AC34431C1F21290015CAA6 /* Build configuration list for PBXNativeTarget "YTVimeoExtractor OS X" */;
 			buildPhases = (
 				01AC342A1C1F21280015CAA6 /* Sources */,
 				01AC342B1C1F21280015CAA6 /* Frameworks */,
@@ -160,7 +160,7 @@
 			);
 			dependencies = (
 			);
-			name = YTVimeoExtractor;
+			name = "YTVimeoExtractor OS X";
 			productName = YTVimeoExtractor;
 			productReference = 01AC342F1C1F21280015CAA6 /* YTVimeoExtractor.framework */;
 			productType = "com.apple.product-type.framework";
@@ -212,7 +212,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01AC342E1C1F21280015CAA6 /* YTVimeoExtractor */,
+				01AC342E1C1F21280015CAA6 /* YTVimeoExtractor OS X */,
 				01AC34381C1F21290015CAA6 /* YTVimeoExtractorTests */,
 			);
 		};
@@ -265,7 +265,7 @@
 /* Begin PBXTargetDependency section */
 		01AC343C1C1F21290015CAA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 01AC342E1C1F21280015CAA6 /* YTVimeoExtractor */;
+			target = 01AC342E1C1F21280015CAA6 /* YTVimeoExtractor OS X */;
 			targetProxy = 01AC343B1C1F21290015CAA6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -375,7 +375,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.louis.larpin.YTVimeoExtractor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = YTVimeoExtractor;
+				PRODUCT_NAME = YTVimeoExtractor;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -395,7 +396,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.louis.larpin.YTVimeoExtractor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = YTVimeoExtractor;
+				PRODUCT_NAME = YTVimeoExtractor;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -434,7 +436,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01AC34431C1F21290015CAA6 /* Build configuration list for PBXNativeTarget "YTVimeoExtractor" */ = {
+		01AC34431C1F21290015CAA6 /* Build configuration list for PBXNativeTarget "YTVimeoExtractor OS X" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01AC34441C1F21290015CAA6 /* Debug */,
