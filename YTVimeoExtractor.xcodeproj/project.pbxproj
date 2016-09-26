@@ -24,16 +24,16 @@
 		01AC34621C1F21ED0015CAA6 /* YTVimeoVideoTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC345E1C1F21ED0015CAA6 /* YTVimeoVideoTestCase.m */; };
 		01AC34641C1F21F70015CAA6 /* testdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 01AC34631C1F21F70015CAA6 /* testdata.json */; };
 		01AC34661C1F22980015CAA6 /* testdata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01AC34651C1F22980015CAA6 /* testdata.plist */; };
-		01C268E71D99C666006B5BDD /* YTVimeoURLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC344F1C1F21750015CAA6 /* YTVimeoURLParser.m */; };
-		01C268E81D99C666006B5BDD /* YTVimeoVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC34511C1F21750015CAA6 /* YTVimeoVideo.m */; };
-		01C268E91D99C666006B5BDD /* YTVimeoExtractorOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC344D1C1F21750015CAA6 /* YTVimeoExtractorOperation.m */; };
-		01C268EA1D99C666006B5BDD /* YTVimeoExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC344B1C1F21750015CAA6 /* YTVimeoExtractor.m */; };
-		01C268ED1D99C666006B5BDD /* YTVimeoError.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC34491C1F21750015CAA6 /* YTVimeoError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01C268EE1D99C666006B5BDD /* YTVimeoURLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC344E1C1F21750015CAA6 /* YTVimeoURLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01C268EF1D99C666006B5BDD /* YTVimeoExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC344A1C1F21750015CAA6 /* YTVimeoExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01C268F01D99C666006B5BDD /* YTVimeoExtractorOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC344C1C1F21750015CAA6 /* YTVimeoExtractorOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01C268F11D99C666006B5BDD /* YTVimeoVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 019F950F1C984EF400E2A405 /* YTVimeoVideo+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		01C268F21D99C666006B5BDD /* YTVimeoVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC34501C1F21750015CAA6 /* YTVimeoVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C2690A1D99CD40006B5BDD /* YTVimeoExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C269081D99CD40006B5BDD /* YTVimeoExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C2690E1D99CDC6006B5BDD /* YTVimeoError.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC34491C1F21750015CAA6 /* YTVimeoError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C2690F1D99CE22006B5BDD /* YTVimeoExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC344B1C1F21750015CAA6 /* YTVimeoExtractor.m */; };
+		01C269101D99CE22006B5BDD /* YTVimeoExtractorOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC344D1C1F21750015CAA6 /* YTVimeoExtractorOperation.m */; };
+		01C269111D99CE22006B5BDD /* YTVimeoURLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC344F1C1F21750015CAA6 /* YTVimeoURLParser.m */; };
+		01C269121D99CE22006B5BDD /* YTVimeoVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC34511C1F21750015CAA6 /* YTVimeoVideo.m */; };
+		01C269131D99CE28006B5BDD /* YTVimeoVideo+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 019F950F1C984EF400E2A405 /* YTVimeoVideo+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		01C269141D99CE43006B5BDD /* YTVimeoExtractorOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC344C1C1F21750015CAA6 /* YTVimeoExtractorOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C269151D99CE47006B5BDD /* YTVimeoURLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC344E1C1F21750015CAA6 /* YTVimeoURLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C269161D99CE49006B5BDD /* YTVimeoVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AC34501C1F21750015CAA6 /* YTVimeoVideo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,9 @@
 		01AC345E1C1F21ED0015CAA6 /* YTVimeoVideoTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVimeoVideoTestCase.m; sourceTree = "<group>"; };
 		01AC34631C1F21F70015CAA6 /* testdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testdata.json; sourceTree = "<group>"; };
 		01AC34651C1F22980015CAA6 /* testdata.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = testdata.plist; sourceTree = "<group>"; };
-		01C268F71D99C666006B5BDD /* YTVimeoExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YTVimeoExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C269061D99CD40006B5BDD /* YTVimeoExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YTVimeoExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C269081D99CD40006B5BDD /* YTVimeoExtractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTVimeoExtractor.h; sourceTree = "<group>"; };
+		01C269091D99CD40006B5BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01C268EB1D99C666006B5BDD /* Frameworks */ = {
+		01C269021D99CD40006B5BDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -101,6 +103,7 @@
 			children = (
 				01AC34311C1F21280015CAA6 /* YTVimeoExtractor */,
 				01AC343D1C1F21290015CAA6 /* YTVimeoExtractorTests */,
+				01C269071D99CD40006B5BDD /* YTVimeoExtractor */,
 				01AC34301C1F21280015CAA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,7 +113,7 @@
 			children = (
 				01AC342F1C1F21280015CAA6 /* YTVimeoExtractor.framework */,
 				01AC34391C1F21290015CAA6 /* YTVimeoExtractorTests.xctest */,
-				01C268F71D99C666006B5BDD /* YTVimeoExtractor.framework */,
+				01C269061D99CD40006B5BDD /* YTVimeoExtractor.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +150,15 @@
 			path = YTVimeoExtractorTests;
 			sourceTree = "<group>";
 		};
+		01C269071D99CD40006B5BDD /* YTVimeoExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				01C269081D99CD40006B5BDD /* YTVimeoExtractor.h */,
+				01C269091D99CD40006B5BDD /* Info.plist */,
+			);
+			path = YTVimeoExtractor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -163,16 +175,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01C268EC1D99C666006B5BDD /* Headers */ = {
+		01C269031D99CD40006B5BDD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C268ED1D99C666006B5BDD /* YTVimeoError.h in Headers */,
-				01C268EE1D99C666006B5BDD /* YTVimeoURLParser.h in Headers */,
-				01C268EF1D99C666006B5BDD /* YTVimeoExtractor.h in Headers */,
-				01C268F01D99C666006B5BDD /* YTVimeoExtractorOperation.h in Headers */,
-				01C268F11D99C666006B5BDD /* YTVimeoVideo+Private.h in Headers */,
-				01C268F21D99C666006B5BDD /* YTVimeoVideo.h in Headers */,
+				01C2690A1D99CD40006B5BDD /* YTVimeoExtractor.h in Headers */,
+				01C269161D99CE49006B5BDD /* YTVimeoVideo.h in Headers */,
+				01C2690E1D99CDC6006B5BDD /* YTVimeoError.h in Headers */,
+				01C269151D99CE47006B5BDD /* YTVimeoURLParser.h in Headers */,
+				01C269141D99CE43006B5BDD /* YTVimeoExtractorOperation.h in Headers */,
+				01C269131D99CE28006B5BDD /* YTVimeoVideo+Private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,14 +227,14 @@
 			productReference = 01AC34391C1F21290015CAA6 /* YTVimeoExtractorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		01C268E51D99C666006B5BDD /* YTVimeoExtractor iOS */ = {
+		01C269051D99CD40006B5BDD /* YTVimeoExtractor iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01C268F41D99C666006B5BDD /* Build configuration list for PBXNativeTarget "YTVimeoExtractor iOS" */;
+			buildConfigurationList = 01C2690B1D99CD40006B5BDD /* Build configuration list for PBXNativeTarget "YTVimeoExtractor iOS" */;
 			buildPhases = (
-				01C268E61D99C666006B5BDD /* Sources */,
-				01C268EB1D99C666006B5BDD /* Frameworks */,
-				01C268EC1D99C666006B5BDD /* Headers */,
-				01C268F31D99C666006B5BDD /* Resources */,
+				01C269011D99CD40006B5BDD /* Sources */,
+				01C269021D99CD40006B5BDD /* Frameworks */,
+				01C269031D99CD40006B5BDD /* Headers */,
+				01C269041D99CD40006B5BDD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -230,7 +242,7 @@
 			);
 			name = "YTVimeoExtractor iOS";
 			productName = YTVimeoExtractor;
-			productReference = 01C268F71D99C666006B5BDD /* YTVimeoExtractor.framework */;
+			productReference = 01C269061D99CD40006B5BDD /* YTVimeoExtractor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -248,6 +260,10 @@
 					01AC34381C1F21290015CAA6 = {
 						CreatedOnToolsVersion = 7.2;
 					};
+					01C269051D99CD40006B5BDD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 01AC34291C1F21280015CAA6 /* Build configuration list for PBXProject "YTVimeoExtractor" */;
@@ -264,7 +280,7 @@
 			targets = (
 				01AC342E1C1F21280015CAA6 /* YTVimeoExtractor OS X */,
 				01AC34381C1F21290015CAA6 /* YTVimeoExtractorTests */,
-				01C268E51D99C666006B5BDD /* YTVimeoExtractor iOS */,
+				01C269051D99CD40006B5BDD /* YTVimeoExtractor iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +302,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01C268F31D99C666006B5BDD /* Resources */ = {
+		01C269041D99CD40006B5BDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,14 +334,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01C268E61D99C666006B5BDD /* Sources */ = {
+		01C269011D99CD40006B5BDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C268E71D99C666006B5BDD /* YTVimeoURLParser.m in Sources */,
-				01C268E81D99C666006B5BDD /* YTVimeoVideo.m in Sources */,
-				01C268E91D99C666006B5BDD /* YTVimeoExtractorOperation.m in Sources */,
-				01C268EA1D99C666006B5BDD /* YTVimeoExtractor.m in Sources */,
+				01C269111D99CE22006B5BDD /* YTVimeoURLParser.m in Sources */,
+				01C269121D99CE22006B5BDD /* YTVimeoVideo.m in Sources */,
+				01C269101D99CE22006B5BDD /* YTVimeoExtractorOperation.m in Sources */,
+				01C2690F1D99CE22006B5BDD /* YTVimeoExtractor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,47 +509,52 @@
 			};
 			name = Release;
 		};
-		01C268F51D99C666006B5BDD /* Debug */ = {
+		01C2690C1D99CD40006B5BDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = YTVimeoExtractor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.louis.larpin.YTVimeoExtractor;
-				PRODUCT_MODULE_NAME = YTVimeoExtractor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.louis.larpin.YTVimeoExtractor.YTVimeoExtractor;
 				PRODUCT_NAME = YTVimeoExtractor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		01C268F61D99C666006B5BDD /* Release */ = {
+		01C2690D1D99CD40006B5BDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = YTVimeoExtractor/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_BUNDLE_IDENTIFIER = com.louis.larpin.YTVimeoExtractor;
-				PRODUCT_MODULE_NAME = YTVimeoExtractor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.louis.larpin.YTVimeoExtractor.YTVimeoExtractor;
 				PRODUCT_NAME = YTVimeoExtractor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -567,14 +588,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01C268F41D99C666006B5BDD /* Build configuration list for PBXNativeTarget "YTVimeoExtractor iOS" */ = {
+		01C2690B1D99CD40006B5BDD /* Build configuration list for PBXNativeTarget "YTVimeoExtractor iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01C268F51D99C666006B5BDD /* Debug */,
-				01C268F61D99C666006B5BDD /* Release */,
+				01C2690C1D99CD40006B5BDD /* Debug */,
+				01C2690D1D99CD40006B5BDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

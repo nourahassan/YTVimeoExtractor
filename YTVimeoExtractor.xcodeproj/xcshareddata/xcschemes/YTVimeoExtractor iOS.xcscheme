@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "01C268E51D99C666006B5BDD"
-               BuildableName = "YTVimeoExtractor.framework"
+               BlueprintIdentifier = "01C269051D99CD40006B5BDD"
+               BuildableName = "YTVimeoExtractor iOS.framework"
                BlueprintName = "YTVimeoExtractor iOS"
                ReferencedContainer = "container:YTVimeoExtractor.xcodeproj">
             </BuildableReference>
@@ -42,8 +42,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01C268E51D99C666006B5BDD"
-            BuildableName = "YTVimeoExtractor.framework"
+            BlueprintIdentifier = "01C269051D99CD40006B5BDD"
+            BuildableName = "YTVimeoExtractor iOS.framework"
             BlueprintName = "YTVimeoExtractor iOS"
             ReferencedContainer = "container:YTVimeoExtractor.xcodeproj">
          </BuildableReference>
@@ -64,8 +64,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01C268E51D99C666006B5BDD"
-            BuildableName = "YTVimeoExtractor.framework"
+            BlueprintIdentifier = "01C269051D99CD40006B5BDD"
+            BuildableName = "YTVimeoExtractor iOS.framework"
             BlueprintName = "YTVimeoExtractor iOS"
             ReferencedContainer = "container:YTVimeoExtractor.xcodeproj">
          </BuildableReference>
@@ -82,8 +82,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01C268E51D99C666006B5BDD"
-            BuildableName = "YTVimeoExtractor.framework"
+            BlueprintIdentifier = "01C269051D99CD40006B5BDD"
+            BuildableName = "YTVimeoExtractor iOS.framework"
             BlueprintName = "YTVimeoExtractor iOS"
             ReferencedContainer = "container:YTVimeoExtractor.xcodeproj">
          </BuildableReference>
